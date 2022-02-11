@@ -18,7 +18,7 @@ public class ComponentFilterApp {
         BeanA beanA = ac.getBean("beanA", BeanA.class);
         Assertions.assertThat(beanA).isNotNull();
 
-        ac.getBean("beanB", BeanB.class);
+        //ac.getBean("beanB", BeanB.class);
     }
 
     @Configuration
